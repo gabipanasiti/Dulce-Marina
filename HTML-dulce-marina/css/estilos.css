@@ -94,21 +94,24 @@ body {
 	letter-spacing: 1px;
 	color: #FC6;
 	height: 25px;
+	padding-top: 5px;
 	}
 
-/* Contenido */
+#columnas {  
+  -webkit-column-count:2;  
+  -moz-column-count:2;  
+  column-count:2;
+  height: 450px;
+}
 
-img{
-	margin-left:15px;
-	margin-top:20px;
+#colproductos {
+  -webkit-column-count:2;  
+  -moz-column-count:2;  
+  column-count:2;
+}
+
+h2{
+	color: #fff;
+	font-size: 18px;
+	background: #630; height: 24px;
 	}
-
-h1{
-	font-family:"Trebuchet MS", Arial, Helvetica, sans-serif;
-	font-size:24px;
-	color:#630;
-	border-bottom:#630 solid;
-	padding:5px 0px 5px 18px;
-	}
-
-
