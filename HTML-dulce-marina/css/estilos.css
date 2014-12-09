@@ -40,6 +40,17 @@ body {
 	font-size: 14px;
 }
 
+h2{
+	color: #fff;
+	font-size: 18px;
+	background: #630; 
+	height: 24px;
+	}
+
+h3{
+	margin-top: 0px;
+}
+
 .wrapper {
 	background: #fff;
 	margin: 0 auto;
@@ -60,10 +71,7 @@ body {
 	width: 70%;
 	padding: 24px 24px 24px 12px;
 }
-.footer {
-	clear: both;
-	padding: 24px;
-}
+
 .header {
 	height: 204px;
 }
@@ -92,10 +100,28 @@ body {
 	font-size: 14px;
 	font-weight: bold;
 	letter-spacing: 1px;
-	color: #FC6;
+	color: #fff;
 	height: 25px;
 	padding-top: 5px;
 	}
+
+.footer {
+	clear: both;
+	position: relative;
+	background: #630;
+	width: 100%;
+	height: 40px;
+	color: #fff;
+}
+.footer a{
+	text-decoration: none;
+	color: #fff;
+}
+.footer li{
+	float:right;
+	list-style: none;
+	margin-right: 20px;
+}
 
 #columnas {  
   -webkit-column-count:2;  
@@ -104,14 +130,11 @@ body {
   height: 450px;
 }
 
+/*No sé si esto está bien*/
+
 #colproductos {
   -webkit-column-count:2;  
   -moz-column-count:2;  
   column-count:2;
 }
 
-h2{
-	color: #fff;
-	font-size: 18px;
-	background: #630; height: 24px;
-	}
