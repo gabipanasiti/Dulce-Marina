@@ -65,7 +65,8 @@ h3{
 }
 .sidebar .promos {
 	background: url(../images/promos_fondo2.png);
-	background-repeat: auto;
+	background-repeat: auto; 
+	margin-top: -3px;
 }
 .sidebar .promos li{
 	text-align: left;
