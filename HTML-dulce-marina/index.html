@@ -118,7 +118,29 @@
             <section id="contacto">
 
                 <h2>Contáctenos</h2>
-
+                     <form action="" formmethod="get">
+                        <label for="user-name">Nombre y apellido:</label>
+                        <input id="user-name" name="user-name" type="text" placeholder="Ingrese su nombre y apellido" required>
+                        <br> <br>
+                        <label>Email:</label>
+                        <input type="email" placeholder="Ingrese un correo válido" required>
+                        <br> <br>
+                        <label>Título:</label>
+                        <input type="title" placeholder="Título" required>
+                        <label for="motivo">Motivo:</label>
+                        <select id="listamotivos" required>
+                            <option value="consulta" selected>Consulta</option>
+                            <option>Comentario</option>
+                            <option>Pedido</option>
+                        </select>
+                        <br> <br>
+                        <label>Mensaje:</label>
+                        <br>
+                        <textarea rows="8" cols="60" required></textarea>
+                        <br> <br>
+                        <input type="submit" value="Enviar">
+                        <input type="reset" value="Cancelar">
+                    </form>
 
             </section><!-- cierre contacto-->
         </div>
