@@ -64,7 +64,12 @@ h3{
 	text-align: center;
 }
 .sidebar .promos {
-	background: #FC6;
+	background: url(../images/promos_fondo2.png);
+	background-repeat: auto;
+}
+.sidebar .promos li{
+	text-align: left;
+	margin-right: 10px;
 }
 .main {
 	float: right;
