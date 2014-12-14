@@ -23,7 +23,7 @@
             </nav>
         </header>
         <div class="sidebar">
-            <a href="#contacto"><strong>Contáctenos</strong></a>
+            <a href="#contacto"><h3>¡Contáctenos!</h3></a>
             <img src="images/promos_fondo.png">
             <div class="promos">
                 <h3>Fiesta de Fin de Año para 20 personas</h3>
@@ -137,24 +137,25 @@
             <section id="contacto">
 
                 <a name="contacto"><h2>Contáctenos</h2></a>
-                     <form action="" formmethod="get">
+                     <form action="mailto:pgorria@hotmail.com" method="post">
+                        <div class="filas"
                         <label for="user-name">Nombre y apellido:</label>
                         <input id="user-name" name="user-name" type="text" placeholder="Ingrese su nombre y apellido" required>
                         <br> <br>
+                        <label>Título:</label>
+                        <input type="title" placeholder="Título" required>
+                        <br><br>
                         <label>E-mail:</label>
                         <input type="email" placeholder="Ingrese un correo válido" required>
                         <br> <br>
-                        <label>Título:</label>
-                        <input type="title" placeholder="Título" required>
                         <label for="motivo">Motivo:</label>
                         <select id="listamotivos" required>
                             <option value="consulta" selected>Consulta</option>
                             <option>Comentario</option>
                             <option>Pedido</option>
                         </select>
-                        <br> <br>
+                        </div>
                         <label>Mensaje:</label>
-                        <br>
                         <textarea rows="8" cols="60" required></textarea>
                         <br> <br>
                         <input type="submit" value="Enviar">
