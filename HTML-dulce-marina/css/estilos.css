@@ -72,6 +72,10 @@ h3{
 	text-align: left;
 	margin-right: 10px;
 }
+.sidebar a{
+	text-decoration: none;
+	color:#333;
+}
 .main {
 	float: right;
 	width: 70%;
@@ -90,7 +94,7 @@ h3{
 	background: #630;
 	padding-left: 204px;
 	position: absolute;
-	top: 102px;
+	top: 85px;
 	width: 100%;
 	}
 .menu li {
